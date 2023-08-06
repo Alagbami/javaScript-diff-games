@@ -1,0 +1,18 @@
+.grid {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+
+.mole {
+    background-image: url('mole.png');
+    background-size: 100% 100%;
+}
